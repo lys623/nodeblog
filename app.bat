@@ -1,0 +1,1 @@
+supervisor G:\GitHub\nodeblog\app

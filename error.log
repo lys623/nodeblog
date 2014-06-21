@@ -1,0 +1,909 @@
+[Wed Jun 18 2014 13:02:25 GMT+0800 (中国标准时间)] /u/1/2014-6-14/sdf
+Error: Failed to lookup view "article"
+    at Function.app.render (f:\blog\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render (f:\blog\node_modules\express\lib\response.js:801:7)
+    at f:\blog\routes\index.js:276:11
+    at f:\blog\models\post.js:146:11
+    at f:\blog\node_modules\mongodb\lib\mongodb\collection.js:953:5
+    at Cursor.nextObject (f:\blog\node_modules\mongodb\lib\mongodb\cursor.js:678:5)
+    at commandHandler (f:\blog\node_modules\mongodb\lib\mongodb\cursor.js:658:14)
+    at f:\blog\node_modules\mongodb\lib\mongodb\db.js:1670:9
+    at Server.Base._callHandler (f:\blog\node_modules\mongodb\lib\mongodb\connection\base.js:382:41)
+    at f:\blog\node_modules\mongodb\lib\mongodb\connection\server.js:472:18
+[Wed Jun 18 2014 13:02:29 GMT+0800 (中国标准时间)] /
+Error: Failed to lookup view "index"
+    at Function.app.render (f:\blog\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render (f:\blog\node_modules\express\lib\response.js:801:7)
+    at f:\blog\routes\index.js:16:11
+    at f:\blog\models\post.js:97:11
+    at f:\blog\node_modules\mongodb\lib\mongodb\cursor.js:158:16
+    at commandHandler (f:\blog\node_modules\mongodb\lib\mongodb\cursor.js:651:16)
+    at f:\blog\node_modules\mongodb\lib\mongodb\db.js:1670:9
+    at Server.Base._callHandler (f:\blog\node_modules\mongodb\lib\mongodb\connection\base.js:382:41)
+    at f:\blog\node_modules\mongodb\lib\mongodb\connection\server.js:472:18
+    at MongoReply.parseBody (f:\blog\node_modules\mongodb\lib\mongodb\responses\mongo_reply.js:68:5)
+[Wed Jun 18 2014 13:02:46 GMT+0800 (中国标准时间)] /
+Error: Failed to lookup view "index"
+    at Function.app.render (f:\blog\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render (f:\blog\node_modules\express\lib\response.js:801:7)
+    at f:\blog\routes\index.js:16:11
+    at f:\blog\models\post.js:97:11
+    at f:\blog\node_modules\mongodb\lib\mongodb\cursor.js:158:16
+    at commandHandler (f:\blog\node_modules\mongodb\lib\mongodb\cursor.js:651:16)
+    at f:\blog\node_modules\mongodb\lib\mongodb\db.js:1670:9
+    at Server.Base._callHandler (f:\blog\node_modules\mongodb\lib\mongodb\connection\base.js:382:41)
+    at f:\blog\node_modules\mongodb\lib\mongodb\connection\server.js:472:18
+    at MongoReply.parseBody (f:\blog\node_modules\mongodb\lib\mongodb\responses\mongo_reply.js:68:5)
+[Wed Jun 18 2014 13:09:29 GMT+0800 (中国标准时间)] /archive
+Error: Failed to lookup view "archive"
+    at Function.app.render (f:\blog\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render (f:\blog\node_modules\express\lib\response.js:801:7)
+    at f:\blog\routes\index.js:175:11
+    at f:\blog\models\post.js:306:9
+    at f:\blog\node_modules\mongodb\lib\mongodb\cursor.js:158:16
+    at commandHandler (f:\blog\node_modules\mongodb\lib\mongodb\cursor.js:651:16)
+    at f:\blog\node_modules\mongodb\lib\mongodb\db.js:1670:9
+    at Server.Base._callHandler (f:\blog\node_modules\mongodb\lib\mongodb\connection\base.js:382:41)
+    at f:\blog\node_modules\mongodb\lib\mongodb\connection\server.js:472:18
+    at MongoReply.parseBody (f:\blog\node_modules\mongodb\lib\mongodb\responses\mongo_reply.js:68:5)
+[Wed Jun 18 2014 13:09:33 GMT+0800 (中国标准时间)] /tags/sdf
+Error: Failed to lookup view "tag"
+    at Function.app.render (f:\blog\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render (f:\blog\node_modules\express\lib\response.js:801:7)
+    at f:\blog\routes\index.js:207:11
+    at f:\blog\models\post.js:363:9
+    at f:\blog\node_modules\mongodb\lib\mongodb\cursor.js:158:16
+    at commandHandler (f:\blog\node_modules\mongodb\lib\mongodb\cursor.js:651:16)
+    at f:\blog\node_modules\mongodb\lib\mongodb\db.js:1670:9
+    at Server.Base._callHandler (f:\blog\node_modules\mongodb\lib\mongodb\connection\base.js:382:41)
+    at f:\blog\node_modules\mongodb\lib\mongodb\connection\server.js:472:18
+    at MongoReply.parseBody (f:\blog\node_modules\mongodb\lib\mongodb\responses\mongo_reply.js:68:5)
+[Wed Jun 18 2014 13:21:37 GMT+0800 (中国标准时间)] /
+Error: The partial paging could not be found
+    at new Error (<anonymous>)
+    at Error.Exception (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\exception.js:13:41)
+    at Object.invokePartial (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:129:11)
+    at Object.invokePartialWrapper [as invokePartial] (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:35:39)
+    at Object.eval (eval at <anonymous> (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:189:23), <anonymous>:114:17)
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:86:31
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:465:21
+    at ExpressHandlebars.extend._renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:337:22)
+    at ExpressHandlebars.renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:194:18)
+    at fn (f:\blog\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+[Wed Jun 18 2014 13:21:39 GMT+0800 (中国标准时间)] /
+Error: The partial paging could not be found
+    at new Error (<anonymous>)
+    at Error.Exception (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\exception.js:13:41)
+    at Object.invokePartial (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:129:11)
+    at Object.invokePartialWrapper [as invokePartial] (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:35:39)
+    at Object.eval (eval at <anonymous> (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:189:23), <anonymous>:114:17)
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:86:31
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:465:21
+    at ExpressHandlebars.extend._renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:337:22)
+    at ExpressHandlebars.renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:194:18)
+    at fn (f:\blog\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+[Wed Jun 18 2014 13:21:42 GMT+0800 (中国标准时间)] /
+Error: The partial paging could not be found
+    at new Error (<anonymous>)
+    at Error.Exception (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\exception.js:13:41)
+    at Object.invokePartial (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:129:11)
+    at Object.invokePartialWrapper [as invokePartial] (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:35:39)
+    at Object.eval (eval at <anonymous> (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:189:23), <anonymous>:114:17)
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:86:31
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:465:21
+    at ExpressHandlebars.extend._renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:337:22)
+    at ExpressHandlebars.renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:194:18)
+    at fn (f:\blog\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+[Wed Jun 18 2014 13:21:43 GMT+0800 (中国标准时间)] /
+Error: The partial paging could not be found
+    at new Error (<anonymous>)
+    at Error.Exception (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\exception.js:13:41)
+    at Object.invokePartial (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:129:11)
+    at Object.invokePartialWrapper [as invokePartial] (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:35:39)
+    at Object.eval (eval at <anonymous> (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:189:23), <anonymous>:114:17)
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:86:31
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:465:21
+    at ExpressHandlebars.extend._renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:337:22)
+    at ExpressHandlebars.renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:194:18)
+    at fn (f:\blog\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+[Wed Jun 18 2014 13:22:01 GMT+0800 (中国标准时间)] /
+Error: The partial paging could not be found
+    at new Error (<anonymous>)
+    at Error.Exception (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\exception.js:13:41)
+    at Object.invokePartial (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:129:11)
+    at Object.invokePartialWrapper [as invokePartial] (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:35:39)
+    at Object.eval (eval at <anonymous> (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:189:23), <anonymous>:114:17)
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:86:31
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:465:21
+    at ExpressHandlebars.extend._renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:337:22)
+    at ExpressHandlebars.renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:194:18)
+    at fn (f:\blog\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+[Wed Jun 18 2014 13:22:02 GMT+0800 (中国标准时间)] /
+Error: The partial paging could not be found
+    at new Error (<anonymous>)
+    at Error.Exception (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\exception.js:13:41)
+    at Object.invokePartial (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:129:11)
+    at Object.invokePartialWrapper [as invokePartial] (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:35:39)
+    at Object.eval (eval at <anonymous> (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:189:23), <anonymous>:114:17)
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:86:31
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:465:21
+    at ExpressHandlebars.extend._renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:337:22)
+    at ExpressHandlebars.renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:194:18)
+    at fn (f:\blog\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+[Wed Jun 18 2014 13:22:03 GMT+0800 (中国标准时间)] /
+Error: The partial paging could not be found
+    at new Error (<anonymous>)
+    at Error.Exception (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\exception.js:13:41)
+    at Object.invokePartial (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:129:11)
+    at Object.invokePartialWrapper [as invokePartial] (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:35:39)
+    at Object.eval (eval at <anonymous> (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:189:23), <anonymous>:114:17)
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:86:31
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:465:21
+    at ExpressHandlebars.extend._renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:337:22)
+    at ExpressHandlebars.renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:194:18)
+    at fn (f:\blog\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+[Wed Jun 18 2014 13:22:06 GMT+0800 (中国标准时间)] /
+Error: The partial paging could not be found
+    at new Error (<anonymous>)
+    at Error.Exception (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\exception.js:13:41)
+    at Object.invokePartial (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:129:11)
+    at Object.invokePartialWrapper [as invokePartial] (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:35:39)
+    at Object.eval (eval at <anonymous> (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:189:23), <anonymous>:114:17)
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:86:31
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:465:21
+    at ExpressHandlebars.extend._renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:337:22)
+    at ExpressHandlebars.renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:194:18)
+    at fn (f:\blog\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+[Wed Jun 18 2014 13:22:41 GMT+0800 (中国标准时间)] /
+Error: The partial paging could not be found
+    at new Error (<anonymous>)
+    at Error.Exception (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\exception.js:13:41)
+    at Object.invokePartial (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:129:11)
+    at Object.invokePartialWrapper [as invokePartial] (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:35:39)
+    at Object.eval (eval at <anonymous> (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:189:23), <anonymous>:114:17)
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:86:31
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:465:21
+    at ExpressHandlebars.extend._renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:337:22)
+    at ExpressHandlebars.renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:194:18)
+    at fn (f:\blog\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+[Wed Jun 18 2014 13:22:42 GMT+0800 (中国标准时间)] /
+Error: The partial paging could not be found
+    at new Error (<anonymous>)
+    at Error.Exception (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\exception.js:13:41)
+    at Object.invokePartial (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:129:11)
+    at Object.invokePartialWrapper [as invokePartial] (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:35:39)
+    at Object.eval (eval at <anonymous> (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:189:23), <anonymous>:114:17)
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:86:31
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:465:21
+    at ExpressHandlebars.extend._renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:337:22)
+    at ExpressHandlebars.renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:194:18)
+    at fn (f:\blog\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+[Wed Jun 18 2014 13:22:43 GMT+0800 (中国标准时间)] /
+Error: The partial paging could not be found
+    at new Error (<anonymous>)
+    at Error.Exception (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\exception.js:13:41)
+    at Object.invokePartial (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:129:11)
+    at Object.invokePartialWrapper [as invokePartial] (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:35:39)
+    at Object.eval (eval at <anonymous> (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:189:23), <anonymous>:114:17)
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:86:31
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:465:21
+    at ExpressHandlebars.extend._renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:337:22)
+    at ExpressHandlebars.renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:194:18)
+    at fn (f:\blog\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+[Wed Jun 18 2014 13:22:43 GMT+0800 (中国标准时间)] /
+Error: The partial paging could not be found
+    at new Error (<anonymous>)
+    at Error.Exception (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\exception.js:13:41)
+    at Object.invokePartial (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:129:11)
+    at Object.invokePartialWrapper [as invokePartial] (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:35:39)
+    at Object.eval (eval at <anonymous> (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:189:23), <anonymous>:114:17)
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:86:31
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:465:21
+    at ExpressHandlebars.extend._renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:337:22)
+    at ExpressHandlebars.renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:194:18)
+    at fn (f:\blog\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+[Wed Jun 18 2014 13:22:43 GMT+0800 (中国标准时间)] /
+Error: The partial paging could not be found
+    at new Error (<anonymous>)
+    at Error.Exception (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\exception.js:13:41)
+    at Object.invokePartial (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:129:11)
+    at Object.invokePartialWrapper [as invokePartial] (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:35:39)
+    at Object.eval (eval at <anonymous> (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:189:23), <anonymous>:114:17)
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:86:31
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:465:21
+    at ExpressHandlebars.extend._renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:337:22)
+    at ExpressHandlebars.renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:194:18)
+    at fn (f:\blog\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+[Wed Jun 18 2014 13:22:44 GMT+0800 (中国标准时间)] /
+Error: The partial paging could not be found
+    at new Error (<anonymous>)
+    at Error.Exception (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\exception.js:13:41)
+    at Object.invokePartial (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:129:11)
+    at Object.invokePartialWrapper [as invokePartial] (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:35:39)
+    at Object.eval (eval at <anonymous> (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:189:23), <anonymous>:114:17)
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:86:31
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:465:21
+    at ExpressHandlebars.extend._renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:337:22)
+    at ExpressHandlebars.renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:194:18)
+    at fn (f:\blog\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+[Wed Jun 18 2014 13:22:44 GMT+0800 (中国标准时间)] /
+Error: The partial paging could not be found
+    at new Error (<anonymous>)
+    at Error.Exception (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\exception.js:13:41)
+    at Object.invokePartial (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:129:11)
+    at Object.invokePartialWrapper [as invokePartial] (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:35:39)
+    at Object.eval (eval at <anonymous> (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:189:23), <anonymous>:114:17)
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:86:31
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:465:21
+    at ExpressHandlebars.extend._renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:337:22)
+    at ExpressHandlebars.renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:194:18)
+    at fn (f:\blog\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+[Wed Jun 18 2014 13:22:44 GMT+0800 (中国标准时间)] /
+Error: The partial paging could not be found
+    at new Error (<anonymous>)
+    at Error.Exception (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\exception.js:13:41)
+    at Object.invokePartial (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:129:11)
+    at Object.invokePartialWrapper [as invokePartial] (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:35:39)
+    at Object.eval (eval at <anonymous> (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:189:23), <anonymous>:114:17)
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:86:31
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:465:21
+    at ExpressHandlebars.extend._renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:337:22)
+    at ExpressHandlebars.renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:194:18)
+    at fn (f:\blog\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+[Wed Jun 18 2014 13:22:52 GMT+0800 (中国标准时间)] /u/1/2014-6-14/sdf
+Error: Failed to lookup view "article"
+    at Function.app.render (f:\blog\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render (f:\blog\node_modules\express\lib\response.js:801:7)
+    at f:\blog\routes\index.js:276:11
+    at f:\blog\models\post.js:146:11
+    at f:\blog\node_modules\mongodb\lib\mongodb\collection.js:953:5
+    at Cursor.nextObject (f:\blog\node_modules\mongodb\lib\mongodb\cursor.js:678:5)
+    at commandHandler (f:\blog\node_modules\mongodb\lib\mongodb\cursor.js:658:14)
+    at f:\blog\node_modules\mongodb\lib\mongodb\db.js:1670:9
+    at Server.Base._callHandler (f:\blog\node_modules\mongodb\lib\mongodb\connection\base.js:382:41)
+    at f:\blog\node_modules\mongodb\lib\mongodb\connection\server.js:472:18
+[Wed Jun 18 2014 13:23:45 GMT+0800 (中国标准时间)] /
+Error: The partial paging could not be found
+    at new Error (<anonymous>)
+    at Error.Exception (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\exception.js:13:41)
+    at Object.invokePartial (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:129:11)
+    at Object.invokePartialWrapper [as invokePartial] (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:35:39)
+    at Object.eval (eval at <anonymous> (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:189:23), <anonymous>:114:17)
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:86:31
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:465:21
+    at ExpressHandlebars.extend._renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:337:22)
+    at ExpressHandlebars.renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:194:18)
+    at fn (f:\blog\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+[Wed Jun 18 2014 13:23:46 GMT+0800 (中国标准时间)] /
+Error: The partial paging could not be found
+    at new Error (<anonymous>)
+    at Error.Exception (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\exception.js:13:41)
+    at Object.invokePartial (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:129:11)
+    at Object.invokePartialWrapper [as invokePartial] (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:35:39)
+    at Object.eval (eval at <anonymous> (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:189:23), <anonymous>:114:17)
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:86:31
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:465:21
+    at ExpressHandlebars.extend._renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:337:22)
+    at ExpressHandlebars.renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:194:18)
+    at fn (f:\blog\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+[Wed Jun 18 2014 13:25:57 GMT+0800 (中国标准时间)] /
+Error: Parse error on line 29:
+.../p>{{/each}}{{> views>paging}} 
+---------------------^
+Expecting 'STRING', 'INTEGER', 'ID', got 'INVALID'
+    at Object.parseError (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:107:11)
+    at Object.parse (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:159:22)
+    at HandlebarsEnvironment.parse (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:12:17)
+    at compileInput (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:454:19)
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:463:18
+    at ExpressHandlebars.extend._renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:337:22)
+    at ExpressHandlebars.renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:194:18)
+    at fn (f:\blog\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+    at Object._onImmediate (f:\blog\node_modules\express3-handlebars\node_modules\async\lib\async.js:498:34)
+    at processImmediate [as _immediateCallback] (timers.js:330:15)
+[Wed Jun 18 2014 13:25:58 GMT+0800 (中国标准时间)] /
+Error: Parse error on line 29:
+.../p>{{/each}}{{> views>paging}} 
+---------------------^
+Expecting 'STRING', 'INTEGER', 'ID', got 'INVALID'
+    at Object.parseError (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:107:11)
+    at Object.parse (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:159:22)
+    at HandlebarsEnvironment.parse (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:12:17)
+    at compileInput (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:454:19)
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:463:18
+    at ExpressHandlebars.extend._renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:337:22)
+    at ExpressHandlebars.renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:194:18)
+    at fn (f:\blog\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+    at Object._onImmediate (f:\blog\node_modules\express3-handlebars\node_modules\async\lib\async.js:498:34)
+    at processImmediate [as _immediateCallback] (timers.js:330:15)
+[Wed Jun 18 2014 13:25:58 GMT+0800 (中国标准时间)] /
+Error: Parse error on line 29:
+.../p>{{/each}}{{> views>paging}} 
+---------------------^
+Expecting 'STRING', 'INTEGER', 'ID', got 'INVALID'
+    at Object.parseError (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:107:11)
+    at Object.parse (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:159:22)
+    at HandlebarsEnvironment.parse (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:12:17)
+    at compileInput (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:454:19)
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:463:18
+    at ExpressHandlebars.extend._renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:337:22)
+    at ExpressHandlebars.renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:194:18)
+    at fn (f:\blog\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+    at Object._onImmediate (f:\blog\node_modules\express3-handlebars\node_modules\async\lib\async.js:498:34)
+    at processImmediate [as _immediateCallback] (timers.js:330:15)
+[Wed Jun 18 2014 13:25:58 GMT+0800 (中国标准时间)] /
+Error: Parse error on line 29:
+.../p>{{/each}}{{> views>paging}} 
+---------------------^
+Expecting 'STRING', 'INTEGER', 'ID', got 'INVALID'
+    at Object.parseError (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:107:11)
+    at Object.parse (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:159:22)
+    at HandlebarsEnvironment.parse (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:12:17)
+    at compileInput (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:454:19)
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:463:18
+    at ExpressHandlebars.extend._renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:337:22)
+    at ExpressHandlebars.renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:194:18)
+    at fn (f:\blog\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+    at Object._onImmediate (f:\blog\node_modules\express3-handlebars\node_modules\async\lib\async.js:498:34)
+    at processImmediate [as _immediateCallback] (timers.js:330:15)
+[Wed Jun 18 2014 13:25:59 GMT+0800 (中国标准时间)] /
+Error: Parse error on line 29:
+.../p>{{/each}}{{> views>paging}} 
+---------------------^
+Expecting 'STRING', 'INTEGER', 'ID', got 'INVALID'
+    at Object.parseError (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:107:11)
+    at Object.parse (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:159:22)
+    at HandlebarsEnvironment.parse (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:12:17)
+    at compileInput (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:454:19)
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:463:18
+    at ExpressHandlebars.extend._renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:337:22)
+    at ExpressHandlebars.renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:194:18)
+    at fn (f:\blog\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+    at Object._onImmediate (f:\blog\node_modules\express3-handlebars\node_modules\async\lib\async.js:498:34)
+    at processImmediate [as _immediateCallback] (timers.js:330:15)
+[Wed Jun 18 2014 13:26:16 GMT+0800 (中国标准时间)] /
+Error: The partial views/paging could not be found
+    at new Error (<anonymous>)
+    at Error.Exception (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\exception.js:13:41)
+    at Object.invokePartial (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:129:11)
+    at Object.invokePartialWrapper [as invokePartial] (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:35:39)
+    at Object.eval (eval at <anonymous> (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:189:23), <anonymous>:114:17)
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:86:31
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:465:21
+    at ExpressHandlebars.extend._renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:337:22)
+    at ExpressHandlebars.renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:194:18)
+    at fn (f:\blog\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+[Wed Jun 18 2014 13:26:17 GMT+0800 (中国标准时间)] /
+Error: The partial views/paging could not be found
+    at new Error (<anonymous>)
+    at Error.Exception (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\exception.js:13:41)
+    at Object.invokePartial (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:129:11)
+    at Object.invokePartialWrapper [as invokePartial] (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:35:39)
+    at Object.eval (eval at <anonymous> (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:189:23), <anonymous>:114:17)
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:86:31
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:465:21
+    at ExpressHandlebars.extend._renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:337:22)
+    at ExpressHandlebars.renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:194:18)
+    at fn (f:\blog\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+[Wed Jun 18 2014 13:26:18 GMT+0800 (中国标准时间)] /
+Error: The partial views/paging could not be found
+    at new Error (<anonymous>)
+    at Error.Exception (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\exception.js:13:41)
+    at Object.invokePartial (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:129:11)
+    at Object.invokePartialWrapper [as invokePartial] (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:35:39)
+    at Object.eval (eval at <anonymous> (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:189:23), <anonymous>:114:17)
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:86:31
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:465:21
+    at ExpressHandlebars.extend._renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:337:22)
+    at ExpressHandlebars.renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:194:18)
+    at fn (f:\blog\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+[Wed Jun 18 2014 13:26:18 GMT+0800 (中国标准时间)] /
+Error: The partial views/paging could not be found
+    at new Error (<anonymous>)
+    at Error.Exception (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\exception.js:13:41)
+    at Object.invokePartial (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:129:11)
+    at Object.invokePartialWrapper [as invokePartial] (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:35:39)
+    at Object.eval (eval at <anonymous> (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:189:23), <anonymous>:114:17)
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:86:31
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:465:21
+    at ExpressHandlebars.extend._renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:337:22)
+    at ExpressHandlebars.renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:194:18)
+    at fn (f:\blog\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+[Wed Jun 18 2014 13:26:22 GMT+0800 (中国标准时间)] /
+Error: The partial views/paging could not be found
+    at new Error (<anonymous>)
+    at Error.Exception (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\exception.js:13:41)
+    at Object.invokePartial (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:129:11)
+    at Object.invokePartialWrapper [as invokePartial] (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:35:39)
+    at Object.eval (eval at <anonymous> (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:189:23), <anonymous>:114:17)
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:86:31
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:465:21
+    at ExpressHandlebars.extend._renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:337:22)
+    at ExpressHandlebars.renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:194:18)
+    at fn (f:\blog\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+[Wed Jun 18 2014 13:28:57 GMT+0800 (中国标准时间)] /
+Error: The partial paging could not be found
+    at new Error (<anonymous>)
+    at Error.Exception (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\exception.js:13:41)
+    at Object.invokePartial (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:129:11)
+    at Object.invokePartialWrapper [as invokePartial] (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:35:39)
+    at Object.eval (eval at <anonymous> (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:189:23), <anonymous>:114:17)
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:86:31
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:465:21
+    at ExpressHandlebars.extend._renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:337:22)
+    at ExpressHandlebars.renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:194:18)
+    at fn (f:\blog\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+[Wed Jun 18 2014 13:31:04 GMT+0800 (中国标准时间)] /
+Error: The partial paging could not be found
+    at new Error (<anonymous>)
+    at Error.Exception (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\exception.js:13:41)
+    at Object.invokePartial (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:129:11)
+    at Object.invokePartialWrapper [as invokePartial] (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:35:39)
+    at Object.eval (eval at <anonymous> (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:189:23), <anonymous>:114:17)
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:86:31
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:465:21
+    at ExpressHandlebars.extend._renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:337:22)
+    at ExpressHandlebars.renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:194:18)
+    at fn (f:\blog\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+[Wed Jun 18 2014 13:31:04 GMT+0800 (中国标准时间)] /
+Error: The partial paging could not be found
+    at new Error (<anonymous>)
+    at Error.Exception (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\exception.js:13:41)
+    at Object.invokePartial (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:129:11)
+    at Object.invokePartialWrapper [as invokePartial] (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:35:39)
+    at Object.eval (eval at <anonymous> (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:189:23), <anonymous>:114:17)
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:86:31
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:465:21
+    at ExpressHandlebars.extend._renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:337:22)
+    at ExpressHandlebars.renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:194:18)
+    at fn (f:\blog\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+[Wed Jun 18 2014 13:31:13 GMT+0800 (中国标准时间)] /
+Error: The partial paging could not be found
+    at new Error (<anonymous>)
+    at Error.Exception (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\exception.js:13:41)
+    at Object.invokePartial (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:129:11)
+    at Object.invokePartialWrapper [as invokePartial] (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:35:39)
+    at Object.eval (eval at <anonymous> (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:189:23), <anonymous>:114:17)
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:86:31
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:465:21
+    at ExpressHandlebars.extend._renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:337:22)
+    at ExpressHandlebars.renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:194:18)
+    at fn (f:\blog\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+[Wed Jun 18 2014 13:31:14 GMT+0800 (中国标准时间)] /
+Error: The partial paging could not be found
+    at new Error (<anonymous>)
+    at Error.Exception (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\exception.js:13:41)
+    at Object.invokePartial (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:129:11)
+    at Object.invokePartialWrapper [as invokePartial] (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:35:39)
+    at Object.eval (eval at <anonymous> (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:189:23), <anonymous>:114:17)
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:86:31
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:465:21
+    at ExpressHandlebars.extend._renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:337:22)
+    at ExpressHandlebars.renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:194:18)
+    at fn (f:\blog\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+[Wed Jun 18 2014 13:31:14 GMT+0800 (中国标准时间)] /
+Error: The partial paging could not be found
+    at new Error (<anonymous>)
+    at Error.Exception (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\exception.js:13:41)
+    at Object.invokePartial (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:129:11)
+    at Object.invokePartialWrapper [as invokePartial] (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:35:39)
+    at Object.eval (eval at <anonymous> (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:189:23), <anonymous>:114:17)
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:86:31
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:465:21
+    at ExpressHandlebars.extend._renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:337:22)
+    at ExpressHandlebars.renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:194:18)
+    at fn (f:\blog\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+[Wed Jun 18 2014 13:31:15 GMT+0800 (中国标准时间)] /
+Error: The partial paging could not be found
+    at new Error (<anonymous>)
+    at Error.Exception (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\exception.js:13:41)
+    at Object.invokePartial (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:129:11)
+    at Object.invokePartialWrapper [as invokePartial] (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:35:39)
+    at Object.eval (eval at <anonymous> (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:189:23), <anonymous>:114:17)
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:86:31
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:465:21
+    at ExpressHandlebars.extend._renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:337:22)
+    at ExpressHandlebars.renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:194:18)
+    at fn (f:\blog\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+[Wed Jun 18 2014 13:31:33 GMT+0800 (中国标准时间)] /
+Error: The partial paging could not be found
+    at new Error (<anonymous>)
+    at Error.Exception (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\exception.js:13:41)
+    at Object.invokePartial (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:129:11)
+    at Object.invokePartialWrapper [as invokePartial] (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:35:39)
+    at Object.eval (eval at <anonymous> (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:189:23), <anonymous>:114:17)
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:86:31
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:465:21
+    at ExpressHandlebars.extend._renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:337:22)
+    at ExpressHandlebars.renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:194:18)
+    at fn (f:\blog\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+[Wed Jun 18 2014 13:31:37 GMT+0800 (中国标准时间)] /
+Error: The partial paging could not be found
+    at new Error (<anonymous>)
+    at Error.Exception (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\exception.js:13:41)
+    at Object.invokePartial (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:129:11)
+    at Object.invokePartialWrapper [as invokePartial] (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:35:39)
+    at Object.eval (eval at <anonymous> (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:189:23), <anonymous>:114:17)
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:86:31
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:465:21
+    at ExpressHandlebars.extend._renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:337:22)
+    at ExpressHandlebars.renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:194:18)
+    at fn (f:\blog\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+[Wed Jun 18 2014 13:31:38 GMT+0800 (中国标准时间)] /
+Error: The partial paging could not be found
+    at new Error (<anonymous>)
+    at Error.Exception (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\exception.js:13:41)
+    at Object.invokePartial (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:129:11)
+    at Object.invokePartialWrapper [as invokePartial] (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:35:39)
+    at Object.eval (eval at <anonymous> (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:189:23), <anonymous>:114:17)
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:86:31
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:465:21
+    at ExpressHandlebars.extend._renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:337:22)
+    at ExpressHandlebars.renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:194:18)
+    at fn (f:\blog\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+[Wed Jun 18 2014 13:31:39 GMT+0800 (中国标准时间)] /
+Error: The partial paging could not be found
+    at new Error (<anonymous>)
+    at Error.Exception (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\exception.js:13:41)
+    at Object.invokePartial (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:129:11)
+    at Object.invokePartialWrapper [as invokePartial] (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:35:39)
+    at Object.eval (eval at <anonymous> (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:189:23), <anonymous>:114:17)
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:86:31
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:465:21
+    at ExpressHandlebars.extend._renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:337:22)
+    at ExpressHandlebars.renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:194:18)
+    at fn (f:\blog\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+[Wed Jun 18 2014 13:31:39 GMT+0800 (中国标准时间)] /
+Error: The partial paging could not be found
+    at new Error (<anonymous>)
+    at Error.Exception (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\exception.js:13:41)
+    at Object.invokePartial (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:129:11)
+    at Object.invokePartialWrapper [as invokePartial] (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:35:39)
+    at Object.eval (eval at <anonymous> (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:189:23), <anonymous>:114:17)
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:86:31
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:465:21
+    at ExpressHandlebars.extend._renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:337:22)
+    at ExpressHandlebars.renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:194:18)
+    at fn (f:\blog\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+[Wed Jun 18 2014 13:31:40 GMT+0800 (中国标准时间)] /
+Error: The partial paging could not be found
+    at new Error (<anonymous>)
+    at Error.Exception (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\exception.js:13:41)
+    at Object.invokePartial (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:129:11)
+    at Object.invokePartialWrapper [as invokePartial] (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:35:39)
+    at Object.eval (eval at <anonymous> (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:189:23), <anonymous>:114:17)
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:86:31
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:465:21
+    at ExpressHandlebars.extend._renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:337:22)
+    at ExpressHandlebars.renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:194:18)
+    at fn (f:\blog\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+[Wed Jun 18 2014 13:31:40 GMT+0800 (中国标准时间)] /
+Error: The partial paging could not be found
+    at new Error (<anonymous>)
+    at Error.Exception (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\exception.js:13:41)
+    at Object.invokePartial (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:129:11)
+    at Object.invokePartialWrapper [as invokePartial] (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:35:39)
+    at Object.eval (eval at <anonymous> (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:189:23), <anonymous>:114:17)
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:86:31
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:465:21
+    at ExpressHandlebars.extend._renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:337:22)
+    at ExpressHandlebars.renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:194:18)
+    at fn (f:\blog\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+[Wed Jun 18 2014 13:31:54 GMT+0800 (中国标准时间)] /
+Error: The partial paging could not be found
+    at new Error (<anonymous>)
+    at Error.Exception (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\exception.js:13:41)
+    at Object.invokePartial (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:129:11)
+    at Object.invokePartialWrapper [as invokePartial] (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:35:39)
+    at Object.eval (eval at <anonymous> (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:189:23), <anonymous>:58:17)
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:86:31
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:465:21
+    at ExpressHandlebars.extend._renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:337:22)
+    at ExpressHandlebars.renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:194:18)
+    at fn (f:\blog\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+[Wed Jun 18 2014 13:31:54 GMT+0800 (中国标准时间)] /
+Error: The partial paging could not be found
+    at new Error (<anonymous>)
+    at Error.Exception (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\exception.js:13:41)
+    at Object.invokePartial (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:129:11)
+    at Object.invokePartialWrapper [as invokePartial] (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:35:39)
+    at Object.eval (eval at <anonymous> (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:189:23), <anonymous>:58:17)
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:86:31
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:465:21
+    at ExpressHandlebars.extend._renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:337:22)
+    at ExpressHandlebars.renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:194:18)
+    at fn (f:\blog\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+[Wed Jun 18 2014 13:31:55 GMT+0800 (中国标准时间)] /
+Error: The partial paging could not be found
+    at new Error (<anonymous>)
+    at Error.Exception (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\exception.js:13:41)
+    at Object.invokePartial (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:129:11)
+    at Object.invokePartialWrapper [as invokePartial] (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:35:39)
+    at Object.eval (eval at <anonymous> (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:189:23), <anonymous>:58:17)
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:86:31
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:465:21
+    at ExpressHandlebars.extend._renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:337:22)
+    at ExpressHandlebars.renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:194:18)
+    at fn (f:\blog\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+[Wed Jun 18 2014 13:31:55 GMT+0800 (中国标准时间)] /
+Error: The partial paging could not be found
+    at new Error (<anonymous>)
+    at Error.Exception (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\exception.js:13:41)
+    at Object.invokePartial (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:129:11)
+    at Object.invokePartialWrapper [as invokePartial] (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:35:39)
+    at Object.eval (eval at <anonymous> (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:189:23), <anonymous>:58:17)
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:86:31
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:465:21
+    at ExpressHandlebars.extend._renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:337:22)
+    at ExpressHandlebars.renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:194:18)
+    at fn (f:\blog\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+[Wed Jun 18 2014 13:31:55 GMT+0800 (中国标准时间)] /
+Error: The partial paging could not be found
+    at new Error (<anonymous>)
+    at Error.Exception (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\exception.js:13:41)
+    at Object.invokePartial (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:129:11)
+    at Object.invokePartialWrapper [as invokePartial] (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:35:39)
+    at Object.eval (eval at <anonymous> (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:189:23), <anonymous>:58:17)
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:86:31
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:465:21
+    at ExpressHandlebars.extend._renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:337:22)
+    at ExpressHandlebars.renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:194:18)
+    at fn (f:\blog\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+[Wed Jun 18 2014 13:31:56 GMT+0800 (中国标准时间)] /
+Error: The partial paging could not be found
+    at new Error (<anonymous>)
+    at Error.Exception (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\exception.js:13:41)
+    at Object.invokePartial (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:129:11)
+    at Object.invokePartialWrapper [as invokePartial] (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:35:39)
+    at Object.eval (eval at <anonymous> (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:189:23), <anonymous>:58:17)
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:86:31
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:465:21
+    at ExpressHandlebars.extend._renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:337:22)
+    at ExpressHandlebars.renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:194:18)
+    at fn (f:\blog\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+[Wed Jun 18 2014 13:31:56 GMT+0800 (中国标准时间)] /
+Error: The partial paging could not be found
+    at new Error (<anonymous>)
+    at Error.Exception (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\exception.js:13:41)
+    at Object.invokePartial (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:129:11)
+    at Object.invokePartialWrapper [as invokePartial] (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:35:39)
+    at Object.eval (eval at <anonymous> (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:189:23), <anonymous>:58:17)
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:86:31
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:465:21
+    at ExpressHandlebars.extend._renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:337:22)
+    at ExpressHandlebars.renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:194:18)
+    at fn (f:\blog\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+[Wed Jun 18 2014 13:31:56 GMT+0800 (中国标准时间)] /
+Error: The partial paging could not be found
+    at new Error (<anonymous>)
+    at Error.Exception (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\exception.js:13:41)
+    at Object.invokePartial (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:129:11)
+    at Object.invokePartialWrapper [as invokePartial] (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:35:39)
+    at Object.eval (eval at <anonymous> (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:189:23), <anonymous>:58:17)
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:86:31
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:465:21
+    at ExpressHandlebars.extend._renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:337:22)
+    at ExpressHandlebars.renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:194:18)
+    at fn (f:\blog\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+[Wed Jun 18 2014 13:31:56 GMT+0800 (中国标准时间)] /
+Error: The partial paging could not be found
+    at new Error (<anonymous>)
+    at Error.Exception (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\exception.js:13:41)
+    at Object.invokePartial (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:129:11)
+    at Object.invokePartialWrapper [as invokePartial] (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:35:39)
+    at Object.eval (eval at <anonymous> (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:189:23), <anonymous>:58:17)
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:86:31
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:465:21
+    at ExpressHandlebars.extend._renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:337:22)
+    at ExpressHandlebars.renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:194:18)
+    at fn (f:\blog\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+[Wed Jun 18 2014 13:31:57 GMT+0800 (中国标准时间)] /
+Error: The partial paging could not be found
+    at new Error (<anonymous>)
+    at Error.Exception (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\exception.js:13:41)
+    at Object.invokePartial (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:129:11)
+    at Object.invokePartialWrapper [as invokePartial] (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:35:39)
+    at Object.eval (eval at <anonymous> (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:189:23), <anonymous>:58:17)
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:86:31
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:465:21
+    at ExpressHandlebars.extend._renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:337:22)
+    at ExpressHandlebars.renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:194:18)
+    at fn (f:\blog\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+[Wed Jun 18 2014 13:31:57 GMT+0800 (中国标准时间)] /
+Error: The partial paging could not be found
+    at new Error (<anonymous>)
+    at Error.Exception (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\exception.js:13:41)
+    at Object.invokePartial (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:129:11)
+    at Object.invokePartialWrapper [as invokePartial] (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:35:39)
+    at Object.eval (eval at <anonymous> (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:189:23), <anonymous>:58:17)
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:86:31
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:465:21
+    at ExpressHandlebars.extend._renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:337:22)
+    at ExpressHandlebars.renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:194:18)
+    at fn (f:\blog\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+[Wed Jun 18 2014 13:31:57 GMT+0800 (中国标准时间)] /
+Error: The partial paging could not be found
+    at new Error (<anonymous>)
+    at Error.Exception (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\exception.js:13:41)
+    at Object.invokePartial (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:129:11)
+    at Object.invokePartialWrapper [as invokePartial] (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:35:39)
+    at Object.eval (eval at <anonymous> (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:189:23), <anonymous>:58:17)
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:86:31
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:465:21
+    at ExpressHandlebars.extend._renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:337:22)
+    at ExpressHandlebars.renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:194:18)
+    at fn (f:\blog\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+[Wed Jun 18 2014 13:31:57 GMT+0800 (中国标准时间)] /
+Error: The partial paging could not be found
+    at new Error (<anonymous>)
+    at Error.Exception (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\exception.js:13:41)
+    at Object.invokePartial (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:129:11)
+    at Object.invokePartialWrapper [as invokePartial] (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:35:39)
+    at Object.eval (eval at <anonymous> (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:189:23), <anonymous>:58:17)
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:86:31
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:465:21
+    at ExpressHandlebars.extend._renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:337:22)
+    at ExpressHandlebars.renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:194:18)
+    at fn (f:\blog\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+[Wed Jun 18 2014 13:31:57 GMT+0800 (中国标准时间)] /
+Error: The partial paging could not be found
+    at new Error (<anonymous>)
+    at Error.Exception (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\exception.js:13:41)
+    at Object.invokePartial (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:129:11)
+    at Object.invokePartialWrapper [as invokePartial] (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:35:39)
+    at Object.eval (eval at <anonymous> (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:189:23), <anonymous>:58:17)
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:86:31
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:465:21
+    at ExpressHandlebars.extend._renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:337:22)
+    at ExpressHandlebars.renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:194:18)
+    at fn (f:\blog\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+[Wed Jun 18 2014 13:31:58 GMT+0800 (中国标准时间)] /
+Error: The partial paging could not be found
+    at new Error (<anonymous>)
+    at Error.Exception (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\exception.js:13:41)
+    at Object.invokePartial (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:129:11)
+    at Object.invokePartialWrapper [as invokePartial] (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:35:39)
+    at Object.eval (eval at <anonymous> (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:189:23), <anonymous>:58:17)
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:86:31
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:465:21
+    at ExpressHandlebars.extend._renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:337:22)
+    at ExpressHandlebars.renderTemplate (f:\blog\node_modules\express3-handlebars\lib\express-handlebars.js:194:18)
+    at fn (f:\blog\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+[Wed Jun 18 2014 13:42:41 GMT+0800 (中国标准时间)] /
+Error: Parse error on line 3:
+...br /><div>  {{#if !isFirstPage}}    <
+---------------------^
+Expecting 'CLOSE', 'CLOSE_UNESCAPED', 'STRING', 'INTEGER', 'BOOLEAN', 'OPEN_SEXPR', 'CLOSE_SEXPR', 'ID', 'DATA', 'SEP', got 'INVALID'
+    at Object.parseError (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:107:11)
+    at Object.parse (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:159:22)
+    at HandlebarsEnvironment.parse (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:12:17)
+    at compileInput (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:454:19)
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:463:18
+    at Object.invokePartial (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:131:12)
+    at Object.invokePartialWrapper [as invokePartial] (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:35:39)
+    at Object.eval (eval at <anonymous> (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:189:23), <anonymous>:114:17)
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:86:31
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:465:21
+[Wed Jun 18 2014 13:42:42 GMT+0800 (中国标准时间)] /
+Error: Parse error on line 3:
+...br /><div>  {{#if !isFirstPage}}    <
+---------------------^
+Expecting 'CLOSE', 'CLOSE_UNESCAPED', 'STRING', 'INTEGER', 'BOOLEAN', 'OPEN_SEXPR', 'CLOSE_SEXPR', 'ID', 'DATA', 'SEP', got 'INVALID'
+    at Object.parseError (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:107:11)
+    at Object.parse (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:159:22)
+    at HandlebarsEnvironment.parse (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:12:17)
+    at compileInput (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:454:19)
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:463:18
+    at Object.invokePartial (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:131:12)
+    at Object.invokePartialWrapper [as invokePartial] (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:35:39)
+    at Object.eval (eval at <anonymous> (f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:189:23), <anonymous>:114:17)
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\runtime.js:86:31
+    at f:\blog\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:465:21
+[Thu Jun 19 2014 12:56:19 GMT+0800 (中国标准时间)] /reg
+Error: Failed to lookup view "reg"
+    at Function.app.render (f:\blog\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render (f:\blog\node_modules\express\lib\response.js:801:7)
+    at f:\blog\routes\index.js:31:9
+    at callbacks (f:\blog\node_modules\express\lib\router\index.js:164:37)
+    at param (f:\blog\node_modules\express\lib\router\index.js:138:11)
+    at pass (f:\blog\node_modules\express\lib\router\index.js:145:5)
+    at nextRoute (f:\blog\node_modules\express\lib\router\index.js:100:7)
+    at callbacks (f:\blog\node_modules\express\lib\router\index.js:167:11)
+    at checkNotLogin (f:\blog\routes\index.js:397:5)
+    at callbacks (f:\blog\node_modules\express\lib\router\index.js:164:37)
+[Thu Jun 19 2014 12:56:22 GMT+0800 (中国标准时间)] /reg
+Error: Failed to lookup view "reg"
+    at Function.app.render (f:\blog\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render (f:\blog\node_modules\express\lib\response.js:801:7)
+    at f:\blog\routes\index.js:31:9
+    at callbacks (f:\blog\node_modules\express\lib\router\index.js:164:37)
+    at param (f:\blog\node_modules\express\lib\router\index.js:138:11)
+    at pass (f:\blog\node_modules\express\lib\router\index.js:145:5)
+    at nextRoute (f:\blog\node_modules\express\lib\router\index.js:100:7)
+    at callbacks (f:\blog\node_modules\express\lib\router\index.js:167:11)
+    at checkNotLogin (f:\blog\routes\index.js:397:5)
+    at callbacks (f:\blog\node_modules\express\lib\router\index.js:164:37)
+[Thu Jun 19 2014 12:59:39 GMT+0800 (中国标准时间)] /post
+Error: Failed to lookup view "post"
+    at Function.app.render (f:\blog\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render (f:\blog\node_modules\express\lib\response.js:801:7)
+    at f:\blog\routes\index.js:111:9
+    at callbacks (f:\blog\node_modules\express\lib\router\index.js:164:37)
+    at param (f:\blog\node_modules\express\lib\router\index.js:138:11)
+    at pass (f:\blog\node_modules\express\lib\router\index.js:145:5)
+    at nextRoute (f:\blog\node_modules\express\lib\router\index.js:100:7)
+    at callbacks (f:\blog\node_modules\express\lib\router\index.js:167:11)
+    at checkLogin (f:\blog\routes\index.js:389:5)
+    at callbacks (f:\blog\node_modules\express\lib\router\index.js:164:37)
+[Thu Jun 19 2014 13:29:44 GMT+0800 (中国标准时间)] /post
+TypeError: object is not a function
+    at f:\blog\routes\index.js:123:16
+    at callbacks (f:\blog\node_modules\express\lib\router\index.js:164:37)
+    at param (f:\blog\node_modules\express\lib\router\index.js:138:11)
+    at pass (f:\blog\node_modules\express\lib\router\index.js:145:5)
+    at nextRoute (f:\blog\node_modules\express\lib\router\index.js:100:7)
+    at callbacks (f:\blog\node_modules\express\lib\router\index.js:167:11)
+    at checkLogin (f:\blog\routes\index.js:389:5)
+    at callbacks (f:\blog\node_modules\express\lib\router\index.js:164:37)
+    at param (f:\blog\node_modules\express\lib\router\index.js:138:11)
+    at pass (f:\blog\node_modules\express\lib\router\index.js:145:5)
+[Thu Jun 19 2014 13:33:18 GMT+0800 (中国标准时间)] /post
+TypeError: object is not a function
+    at f:\blog\routes\index.js:123:16
+    at callbacks (f:\blog\node_modules\express\lib\router\index.js:164:37)
+    at param (f:\blog\node_modules\express\lib\router\index.js:138:11)
+    at pass (f:\blog\node_modules\express\lib\router\index.js:145:5)
+    at nextRoute (f:\blog\node_modules\express\lib\router\index.js:100:7)
+    at callbacks (f:\blog\node_modules\express\lib\router\index.js:167:11)
+    at checkLogin (f:\blog\routes\index.js:389:5)
+    at callbacks (f:\blog\node_modules\express\lib\router\index.js:164:37)
+    at param (f:\blog\node_modules\express\lib\router\index.js:138:11)
+    at pass (f:\blog\node_modules\express\lib\router\index.js:145:5)
+[Sat Jun 21 2014 13:43:49 GMT+0800 (中国标准时间)] /tags
+TypeError: Object function Post(name, head, title, tags, post) {
+  this.name = name;
+  this.head = head;
+  this.title = title;
+  this.tags = tags;
+  this.post = post;
+} has no method 'getTags'
+    at G:\GitHub\nodeblog\routes\index.js:186:10
+    at callbacks (G:\GitHub\nodeblog\node_modules\express\lib\router\index.js:164:37)
+    at param (G:\GitHub\nodeblog\node_modules\express\lib\router\index.js:138:11)
+    at pass (G:\GitHub\nodeblog\node_modules\express\lib\router\index.js:145:5)
+    at Router._dispatch (G:\GitHub\nodeblog\node_modules\express\lib\router\index.js:173:5)
+    at Object.router (G:\GitHub\nodeblog\node_modules\express\lib\router\index.js:33:10)
+    at next (G:\GitHub\nodeblog\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at next (G:\GitHub\nodeblog\node_modules\express\node_modules\connect\lib\middleware\session.js:318:9)
+    at G:\GitHub\nodeblog\node_modules\express\node_modules\connect\lib\middleware\session.js:342:9
+    at G:\GitHub\nodeblog\node_modules\connect-mongo\lib\connect-mongo.js:194:17
+[Sat Jun 21 2014 13:43:52 GMT+0800 (中国标准时间)] /archive
+TypeError: Object function Post(name, head, title, tags, post) {
+  this.name = name;
+  this.head = head;
+  this.title = title;
+  this.tags = tags;
+  this.post = post;
+} has no method 'getArchive'
+    at G:\GitHub\nodeblog\routes\index.js:170:10
+    at callbacks (G:\GitHub\nodeblog\node_modules\express\lib\router\index.js:164:37)
+    at param (G:\GitHub\nodeblog\node_modules\express\lib\router\index.js:138:11)
+    at pass (G:\GitHub\nodeblog\node_modules\express\lib\router\index.js:145:5)
+    at Router._dispatch (G:\GitHub\nodeblog\node_modules\express\lib\router\index.js:173:5)
+    at Object.router (G:\GitHub\nodeblog\node_modules\express\lib\router\index.js:33:10)
+    at next (G:\GitHub\nodeblog\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at next (G:\GitHub\nodeblog\node_modules\express\node_modules\connect\lib\middleware\session.js:318:9)
+    at G:\GitHub\nodeblog\node_modules\express\node_modules\connect\lib\middleware\session.js:342:9
+    at G:\GitHub\nodeblog\node_modules\connect-mongo\lib\connect-mongo.js:194:17
+[Sat Jun 21 2014 13:43:54 GMT+0800 (中国标准时间)] /links
+Error: Failed to lookup view "links"
+    at Function.app.render (G:\GitHub\nodeblog\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render (G:\GitHub\nodeblog\node_modules\express\lib\response.js:801:7)
+    at G:\GitHub\nodeblog\routes\index.js:218:9
+    at callbacks (G:\GitHub\nodeblog\node_modules\express\lib\router\index.js:164:37)
+    at param (G:\GitHub\nodeblog\node_modules\express\lib\router\index.js:138:11)
+    at pass (G:\GitHub\nodeblog\node_modules\express\lib\router\index.js:145:5)
+    at Router._dispatch (G:\GitHub\nodeblog\node_modules\express\lib\router\index.js:173:5)
+    at Object.router (G:\GitHub\nodeblog\node_modules\express\lib\router\index.js:33:10)
+    at next (G:\GitHub\nodeblog\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at next (G:\GitHub\nodeblog\node_modules\express\node_modules\connect\lib\middleware\session.js:318:9)
